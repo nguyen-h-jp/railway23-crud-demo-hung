@@ -55,7 +55,7 @@ function login() {
 
             // redirect to home page
             // https://www.w3schools.com/howto/howto_js_redirect_webpage.asp
-            window.location.replace("/templates/index.html#");
+            window.location.replace("/");
         },
         error(jqXHR, textStatus, errorThrown) {
             if (jqXHR.status == 401) {
